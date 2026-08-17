@@ -123,10 +123,10 @@ if(year) year.textContent=new Date().getFullYear();
   document.body.appendChild(js);
 })();
 
-// Curated Chinese background ambience: 《佩蘭》 Pei Lan, guqin.
+// Gentle piano background ambience.
 (() => {
   const js=document.createElement('script');
-  js.src='music.js?v=20260817-1';
+  js.src='music.js?v=20260817-4';
   js.defer=true;
   document.body.appendChild(js);
 })();
