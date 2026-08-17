@@ -110,3 +110,15 @@ if(copyButton){
 
 const year=document.querySelector('#year');
 if(year) year.textContent=new Date().getFullYear();
+
+// V2 WOW modules are kept separate so the core landing page stays maintainable.
+(() => {
+  const css=document.createElement('link');
+  css.rel='stylesheet';
+  css.href='wow.css?v=20260817-2';
+  document.head.appendChild(css);
+  const js=document.createElement('script');
+  js.src='wow.js?v=20260817-2';
+  js.defer=true;
+  document.body.appendChild(js);
+})();
