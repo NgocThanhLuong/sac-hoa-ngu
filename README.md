@@ -15,9 +15,19 @@ Sau đó truy cập `http://localhost:8080`.
 ## Cấu trúc
 
 - `index.html` — nội dung và semantic HTML
-- `styles.css` — visual system, responsive layout, animation
-- `script.js` — navigation, reveal effects, FAQ, form UX
+- `styles.css` / `responsive.css` / `enhanced.css` — visual system và responsive layout
+- `script.js` / `enhanced.js` — navigation, kiến thức tương tác, CTA
+- `wow.css` / `wow.js` — V2 WOW interactive learning experience
+- `music.js` — background ambience, fade, mute state và attribution
+
+## Nhạc nền
+
+Website sử dụng bản thu **《佩蘭》 Pei Lan / 佩兰** do **Charlie Huang** trình diễn bằng **guqin dây tơ**, nguồn Wikimedia Commons. Bản thu được sử dụng theo giấy phép **Creative Commons Attribution 2.5 (CC BY 2.5)**.
+
+Nguồn: https://commons.wikimedia.org/wiki/File:Pei_Lan.ogg
+
+Music credit được hiển thị trực tiếp ở footer của website.
 
 ## Tuỳ biến nhanh
 
-Các thông tin liên hệ, tên giáo viên và link mạng xã hội được gom ở khu vực CTA/footer trong `index.html` để có thể thay đổi nhanh khi có dữ liệu thật.
+Các thông tin liên hệ, tên giáo viên và link mạng xã hội có thể thay đổi khi có dữ liệu thật. Facebook giáo viên hiện đã được gắn vào CTA của landing page.
