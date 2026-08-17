@@ -112,3 +112,46 @@ if(stage){
     renderKnowledge(button.dataset.knowledge);
   }));
 }
+
+// Real teacher Facebook contact
+const teacherFacebook='https://www.facebook.com/tran.anhvan.18';
+
+const socialStyle=document.createElement('style');
+socialStyle.textContent=`
+.fb-contact{display:inline-flex;align-items:center;gap:10px;border-radius:999px;padding:14px 20px;background:#1877f2;color:#fff!important;font-size:12px;font-weight:800;box-shadow:0 14px 30px rgba(24,119,242,.18);transition:.25s}.fb-contact:hover{transform:translateY(-2px);box-shadow:0 18px 34px rgba(24,119,242,.26)}
+.fb-contact svg{width:18px;height:18px;fill:currentColor}.fb-contact small{font:500 9px var(--serif);opacity:.76}.hero-facebook{margin-top:14px}.hero-facebook .fb-contact{padding:11px 16px;background:#fff;color:#1877f2!important;border:1px solid rgba(24,119,242,.18)}
+.cta-facebook{margin-top:12px;width:100%;justify-content:center}.floating-facebook{position:fixed;right:22px;bottom:22px;z-index:90;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;background:#1877f2;color:#fff;box-shadow:0 16px 36px rgba(24,119,242,.3);transition:.25s}.floating-facebook:hover{transform:translateY(-3px) scale(1.03)}.floating-facebook svg{width:25px;height:25px;fill:currentColor}.floating-facebook:before{content:'Facebook · 联系老师';position:absolute;right:68px;white-space:nowrap;background:#102b28;color:#fff;border-radius:999px;padding:8px 12px;font-size:9px;font-weight:700;opacity:0;transform:translateX(8px);pointer-events:none;transition:.2s}.floating-facebook:hover:before{opacity:1;transform:none}
+@media(max-width:680px){.hero-facebook{display:flex;justify-content:center}.floating-facebook{width:52px;height:52px;right:14px;bottom:14px}.floating-facebook:before{display:none}}
+`;
+document.head.appendChild(socialStyle);
+
+const fbIcon=`<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8.5V6.7c0-.8.5-1 1-1h2.6V2.1L14.4 2C11.2 2 10 3.9 10 6.3v2.2H7v4h3V22h4v-9.5h3.3l.5-4H14z"/></svg>`;
+
+const heroActions=document.querySelector('.hero .actions');
+if(heroActions){
+  const heroFb=document.createElement('div');
+  heroFb.className='hero-facebook';
+  heroFb.innerHTML=`<a class="fb-contact" href="${teacherFacebook}" target="_blank" rel="noopener noreferrer">${fbIcon}<span>Facebook giáo viên<br><small>联系老师 · Xem trang cá nhân</small></span></a>`;
+  heroActions.insertAdjacentElement('afterend',heroFb);
+}
+
+const ctaAside=document.querySelector('.cta aside');
+if(ctaAside){
+  const directFb=document.createElement('a');
+  directFb.className='fb-contact cta-facebook';
+  directFb.href=teacherFacebook;
+  directFb.target='_blank';
+  directFb.rel='noopener noreferrer';
+  directFb.innerHTML=`${fbIcon}<span>Liên hệ qua Facebook · 通过 Facebook 联系老师</span>`;
+  const copyBtn=ctaAside.querySelector('.copy-msg');
+  if(copyBtn) copyBtn.insertAdjacentElement('afterend',directFb); else ctaAside.appendChild(directFb);
+}
+
+const floatingFb=document.createElement('a');
+floatingFb.className='floating-facebook';
+floatingFb.href=teacherFacebook;
+floatingFb.target='_blank';
+floatingFb.rel='noopener noreferrer';
+floatingFb.setAttribute('aria-label','Facebook giáo viên · 联系老师');
+floatingFb.innerHTML=fbIcon;
+document.body.appendChild(floatingFb);
