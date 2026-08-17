@@ -26,7 +26,7 @@ Website sử dụng bản thu **《佩蘭》 Pei Lan / 佩兰** do **Charlie Hua
 
 Nguồn: https://commons.wikimedia.org/wiki/File:Pei_Lan.ogg
 
-Music credit được hiển thị trực tiếp ở footer của website.
+Music credit được hiển thị trực tiếp ở footer của website. Nhạc chỉ bắt đầu sau tương tác đầu tiên của người dùng để tuân thủ chính sách autoplay của trình duyệt; trạng thái bật/tắt được lưu cục bộ trên thiết bị.
 
 ## Tuỳ biến nhanh
 
