@@ -22,9 +22,9 @@ Sau đó truy cập `http://localhost:8080`.
 
 ## Nhạc nền
 
-Website sử dụng bản thu **《佩蘭》 Pei Lan / 佩兰** do **Charlie Huang** trình diễn bằng **guqin dây tơ**, nguồn Wikimedia Commons. Bản thu được sử dụng theo giấy phép **Creative Commons Attribution 2.5 (CC BY 2.5)**.
+Website sử dụng **Piano Refreshing** của **PeriTune**, piano solo nhẹ và sáng hơn để làm background ambience. Nguồn media từ Wikimedia Commons; track được sử dụng với attribution theo giấy phép Creative Commons ghi trên trang nguồn.
 
-Nguồn: https://commons.wikimedia.org/wiki/File:Pei_Lan.ogg
+Nguồn: https://commons.wikimedia.org/wiki/File:%E3%80%90%E7%84%A1%E6%96%99%E3%83%95%E3%83%AA%E3%83%BCBGM%E3%80%91%E7%88%BD%E3%82%84%E3%81%8B%E3%81%AA%E3%83%94%E3%82%A2%E3%83%8E%E3%82%BD%E3%83%AD%E3%80%8CPiano_Refreshing%E3%80%8D.opus
 
 Music credit được hiển thị trực tiếp ở footer của website. Nhạc chỉ bắt đầu sau tương tác đầu tiên của người dùng để tuân thủ chính sách autoplay của trình duyệt; trạng thái bật/tắt được lưu cục bộ trên thiết bị.
 
