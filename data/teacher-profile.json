@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "type": "user_provided_image",
+    "confirmedBySiteOwner": true,
+    "extractedAt": "2026-08-25",
+    "note": "Credential content extracted from the image supplied by the site owner. Keep factual fields unchanged unless the site owner provides a correction."
+  },
+  "sectionTitle": {
+    "vi": "Học vấn & Năng lực",
+    "en": "Education & Qualifications",
+    "zh": "学历与资质"
+  },
+  "intro": {
+    "vi": "Nền tảng học thuật vững chắc · Năng lực giảng dạy chuyên sâu · Đồng hành cùng bạn chinh phục tiếng Trung",
+    "en": "Strong academic foundation · Professional teaching expertise · Your partner in mastering Chinese",
+    "zh": "扎实的学术基础 · 专业的教学能力 · 陪伴你深入学习中文"
+  },
+  "highlights": [
+    {
+      "id": "bilingual",
+      "vi": "Song ngữ Việt – Trung",
+      "en": "Vietnamese – Chinese bilingual",
+      "zh": "越中双语"
+    },
+    {
+      "id": "hsk",
+      "vi": "HSK6 / HSKK cao cấp",
+      "en": "HSK Level 6 / Advanced HSKK",
+      "zh": "HSK六级 / HSKK高级"
+    },
+    {
+      "id": "pedagogy",
+      "vi": "Nghiệp vụ sư phạm",
+      "en": "Pedagogical qualification",
+      "zh": "教学专业资质"
+    },
+    {
+      "id": "exam-prep",
+      "vi": "Kinh nghiệm luyện thi",
+      "en": "Exam preparation experience",
+      "zh": "备考辅导经验"
+    }
+  ],
+  "credentials": [
+    {
+      "id": "ba-chinese",
+      "type": "degree",
+      "vi": "Cử nhân Ngôn ngữ Trung Quốc - Đại học Hà Nội",
+      "en": "Bachelor of Arts in Chinese Language Studies - Hanoi University",
+      "zh": "河内大学中文系-中文学学士学位"
+    },
+    {
+      "id": "ba-english",
+      "type": "degree",
+      "vi": "Cử nhân Ngôn ngữ Anh - Đại học Hà Nội",
+      "en": "Bachelor of Arts in English Language Studies - Hanoi University",
+      "zh": "河内大学英语系-英语学学士学位"
+    },
+    {
+      "id": "hsk6-hskk",
+      "type": "certificate",
+      "vi": "Chứng chỉ năng lực tiếng Trung HSK6, HSKK cao cấp",
+      "en": "HSK Level 6 and Advanced HSKK (Chinese Proficiency Test and Advanced Speaking Test) Certificates.",
+      "zh": "HSK6（汉语水平考试六级）与HSKK高级（汉语口语水平考试高级）证书。"
+    },
+    {
+      "id": "pedagogical-skills",
+      "type": "certificate",
+      "vi": "Chứng chỉ nghiệp vụ sư phạm - Học viện Quản lý Giáo dục",
+      "en": "Certified in Pedagogical Skills - National Academy Of Education Management",
+      "zh": "已获得由教育管理学院颁发的教师职业资格证书"
+    },
+    {
+      "id": "teaching-experience",
+      "type": "experience",
+      "vi": "Có kinh nghiệm giảng dạy tiếng Trung (Gia sư ôn thi Đại học, luyện thi chứng chỉ HSK,...)",
+      "en": "Experienced in teaching Chinese, including private tutoring, university entrance exam preparation, and HSK certification training",
+      "zh": "具有中文教学经验（包括家教、高考辅导、HSK考试培训等）"
+    }
+  ],
+  "cta": {
+    "message": {
+      "vi": "Nhắn cô giáo",
+      "zh": "联系老师"
+    },
+    "trial": {
+      "vi": "Đăng ký học thử",
+      "zh": "预约试听课"
+    }
+  }
+}
