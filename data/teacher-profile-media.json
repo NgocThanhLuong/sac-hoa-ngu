@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "teacherPhoto": {
+    "path": "assets/teacher/teacher-snow.jpg",
+    "source": "user_provided_image",
+    "confirmedBySiteOwner": true,
+    "addedAt": "2026-08-25",
+    "alt": {
+      "vi": "Ảnh cô giáo Sắc Hoa Ngữ",
+      "zh": "色华语老师照片"
+    },
+    "usage": "Teacher profile presentation only. Do not infer identity or additional credentials from the image."
+  }
+}

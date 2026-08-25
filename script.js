@@ -69,6 +69,7 @@ document.querySelectorAll('.faq-item button').forEach(button=>button.addEventLis
   if(!wasOpen){
     item.classList.add('open');
     button.setAttribute('aria-expanded','true');
+    button.querySelector('button')?.setAttribute('aria-expanded','true');
     button.querySelector('i').textContent='−';
     answer.hidden=false;
   }
@@ -135,10 +136,10 @@ if(year) year.textContent=new Date().getFullYear();
 (() => {
   const css=document.createElement('link');
   css.rel='stylesheet';
-  css.href='teacher-profile.css?v=20260825-2';
+  css.href='teacher-profile.css?v=20260825-3';
   document.head.appendChild(css);
   const js=document.createElement('script');
-  js.src='teacher-profile.js?v=20260825-2';
+  js.src='teacher-profile.js?v=20260825-3';
   js.defer=true;
   document.body.appendChild(js);
 })();
