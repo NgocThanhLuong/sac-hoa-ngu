@@ -53,4 +53,16 @@
     }
   }
   init();
+
+  // Class information is a separate JSON-driven module. The English-class reference poster supplied by the owner is used only for information architecture inspiration, never as a factual source.
+  (()=>{
+    const css=document.createElement('link');
+    css.rel='stylesheet';
+    css.href='class-info.css?v=20260825-1';
+    document.head.appendChild(css);
+    const js=document.createElement('script');
+    js.src='class-info.js?v=20260825-1';
+    js.defer=true;
+    document.body.appendChild(js);
+  })();
 })();
