@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "type": "site_curated",
+    "confirmedBySiteOwner": true,
+    "createdAt": "2026-08-25",
+    "note": "Class information distilled from the current Sắc Hoa Ngữ website and the site owner's direction. The English-class poster supplied by the owner was used only as layout inspiration; none of its teacher, contact, address, grade, class-size, or experience data is included. Keep factual fields unchanged unless the site owner explicitly approves a correction."
+  },
+  "sectionTitle": {
+    "vi": "Thông tin lớp học",
+    "en": "Class Information",
+    "zh": "班级信息"
+  },
+  "headline": {
+    "vi": "Học đúng mục tiêu, hiểu sâu và dùng tiếng Trung tự nhiên hơn.",
+    "zh": "按目标学习，理解得更深，用中文更自然。"
+  },
+  "intro": {
+    "vi": "Lộ trình được điều chỉnh theo nền tảng, mục tiêu và quỹ thời gian thực tế; kiến thức luôn đi cùng ngữ cảnh, phản xạ và khả năng vận dụng.",
+    "zh": "课程会根据基础、目标与实际时间调整；知识始终和语境、反应与实际运用连接起来。"
+  },
+  "audiences": [
+    {
+      "id": "beginner",
+      "icon": "芽",
+      "vi": "Người mới bắt đầu",
+      "zh": "零基础学习者",
+      "descriptionVi": "Bắt đầu từ pinyin, thanh điệu, chữ Hán cơ bản và những mẫu câu thiết yếu.",
+      "descriptionZh": "从拼音、声调、基础汉字和核心句型开始。"
+    },
+    {
+      "id": "hsk",
+      "icon": "考",
+      "vi": "Người học theo lộ trình HSK",
+      "zh": "HSK 系统学习者",
+      "descriptionVi": "Học từ vựng, ngữ pháp, nghe – đọc – viết có hệ thống và luyện đề đi cùng phân tích lỗi.",
+      "descriptionZh": "系统学习词汇、语法、听读写，并结合真题与错题复盘。"
+    },
+    {
+      "id": "speaking",
+      "icon": "说",
+      "vi": "Người muốn tăng phản xạ giao tiếp",
+      "zh": "想提高口语反应的人",
+      "descriptionVi": "Luyện tình huống thật, shadowing, hỏi – đáp nhanh, kể chuyện và cách diễn đạt tự nhiên hơn.",
+      "descriptionZh": "通过真实场景、跟读、快速问答与复述提升自然表达。"
+    },
+    {
+      "id": "pronunciation",
+      "icon": "音",
+      "vi": "Người muốn sửa phát âm & ngữ điệu",
+      "zh": "想改善发音与语调的人",
+      "descriptionVi": "Củng cố thanh mẫu, vận mẫu, thanh điệu, biến điệu và nhịp câu để lời nói rõ và tự nhiên hơn.",
+      "descriptionZh": "强化声母、韵母、声调、变调与句子节奏。"
+    }
+  ],
+  "learningFocus": [
+    {
+      "id": "phonetics",
+      "icon": "拼",
+      "vi": "Pinyin & Thanh điệu",
+      "zh": "拼音与声调",
+      "descriptionVi": "Phát âm, biến điệu và nhịp câu.",
+      "descriptionZh": "发音、变调与句子节奏。"
+    },
+    {
+      "id": "hanzi",
+      "icon": "字",
+      "vi": "Chữ Hán",
+      "zh": "汉字",
+      "descriptionVi": "Bộ kiện, chữ hình thanh và logic ghi nhớ.",
+      "descriptionZh": "部件、形声字与记忆逻辑。"
+    },
+    {
+      "id": "vocabulary",
+      "icon": "词",
+      "vi": "Từ vựng",
+      "zh": "词汇",
+      "descriptionVi": "Từ theo chủ đề, collocation và sắc thái.",
+      "descriptionZh": "主题词汇、搭配与语义色彩。"
+    },
+    {
+      "id": "grammar",
+      "icon": "法",
+      "vi": "Ngữ pháp",
+      "zh": "语法",
+      "descriptionVi": "Hiểu chức năng và ngữ cảnh, không chỉ học công thức.",
+      "descriptionZh": "理解功能与语境，而不是只背公式。"
+    },
+    {
+      "id": "speaking",
+      "icon": "说",
+      "vi": "Giao tiếp",
+      "zh": "口语表达",
+      "descriptionVi": "Phản xạ, hỏi – đáp, kể chuyện và tình huống thật.",
+      "descriptionZh": "反应、问答、复述与真实场景表达。"
+    },
+    {
+      "id": "context",
+      "icon": "境",
+      "vi": "Ngữ cảm & Ngữ cảnh",
+      "zh": "语感与语境",
+      "descriptionVi": "Biết câu nào đúng, câu nào tự nhiên và dùng thế nào trong từng tình huống.",
+      "descriptionZh": "判断什么是正确、自然，以及不同场景中该怎么说。"
+    }
+  ],
+  "formats": [
+    {
+      "id": "one-to-one",
+      "label": "1:1",
+      "vi": "Kèm riêng",
+      "zh": "一对一",
+      "descriptionVi": "Cá nhân hoá sâu theo nền tảng và mục tiêu.",
+      "descriptionZh": "根据基础与目标进行深度个性化。"
+    },
+    {
+      "id": "small-group",
+      "label": "小班",
+      "vi": "Nhóm nhỏ",
+      "zh": "小班课",
+      "descriptionVi": "Tăng tương tác và thời lượng thực hành.",
+      "descriptionZh": "增加互动与实际练习时间。"
+    },
+    {
+      "id": "goal-based",
+      "label": "目标",
+      "vi": "Theo mục tiêu",
+      "zh": "目标导向",
+      "descriptionVi": "HSK, giao tiếp hoặc củng cố nền tảng theo nhu cầu.",
+      "descriptionZh": "根据 HSK、口语或基础巩固等需求规划。"
+    },
+    {
+      "id": "flexible",
+      "label": "灵活",
+      "vi": "Tiến độ linh hoạt",
+      "zh": "灵活进度",
+      "descriptionVi": "Có thể điều chỉnh theo quỹ thời gian thực tế của người học.",
+      "descriptionZh": "可根据学习者实际时间调整进度。"
+    }
+  ],
+  "lessonFlow": [
+    {
+      "step": 1,
+      "id": "input",
+      "en": "INPUT",
+      "zh": "输入",
+      "vi": "Hiểu rõ",
+      "descriptionVi": "Từ mới và ngữ pháp đi vào bằng ngữ cảnh, hình ảnh và câu hỏi “vì sao”."
+    },
+    {
+      "step": 2,
+      "id": "notice",
+      "en": "NOTICE",
+      "zh": "注意",
+      "vi": "Nhìn ra quy luật",
+      "descriptionVi": "Nhận diện điểm mấu chốt về âm, từ, cấu trúc, collocation và sắc thái."
+    },
+    {
+      "step": 3,
+      "id": "output",
+      "en": "OUTPUT",
+      "zh": "输出",
+      "vi": "Nói ngay",
+      "descriptionVi": "Biến mẫu câu thành lời của chính bạn qua hỏi – đáp, kể lại và tình huống thật."
+    },
+    {
+      "step": 4,
+      "id": "feedback",
+      "en": "FEEDBACK",
+      "zh": "反馈",
+      "vi": "Sửa đúng chỗ",
+      "descriptionVi": "Chỉ ra lỗi ở phát âm, từ, cấu trúc hay ngữ cảnh và cách sửa tự nhiên hơn."
+    },
+    {
+      "step": 5,
+      "id": "reuse",
+      "en": "REUSE",
+      "zh": "复用",
+      "vi": "Dùng lại",
+      "descriptionVi": "Lặp lại trong ngữ cảnh mới để kiến thức dần trở thành phản xạ."
+    }
+  ],
+  "learningPromises": [
+    {
+      "id": "understand",
+      "vi": "Hiểu bản chất",
+      "zh": "理解本质",
+      "descriptionVi": "Không chỉ nhớ đáp án mà biết vì sao tiếng Trung vận hành như vậy."
+    },
+    {
+      "id": "apply",
+      "vi": "Dùng được",
+      "zh": "学以致用",
+      "descriptionVi": "Kiến thức luôn đi tới bước đặt câu, phản xạ và vận dụng."
+    },
+    {
+      "id": "natural",
+      "vi": "Tự nhiên hơn",
+      "zh": "表达更自然",
+      "descriptionVi": "Từ đúng ngữ pháp tiến dần tới cách nói phù hợp ngữ cảnh và sắc thái."
+    },
+    {
+      "id": "progress",
+      "vi": "Tiến bộ có định hướng",
+      "zh": "有方向地进步",
+      "descriptionVi": "Lộ trình bám mục tiêu, nền tảng và điểm cần củng cố của người học."
+    }
+  ],
+  "startSteps": [
+    {
+      "step": 1,
+      "vi": "Chia sẻ trình độ hiện tại",
+      "zh": "说明目前水平"
+    },
+    {
+      "step": 2,
+      "vi": "Xác định mục tiêu học",
+      "zh": "明确学习目标"
+    },
+    {
+      "step": 3,
+      "vi": "Trao đổi thời gian có thể học",
+      "zh": "沟通可学习时间"
+    },
+    {
+      "step": 4,
+      "vi": "Bắt đầu bằng buổi học thử",
+      "zh": "从试听课开始"
+    }
+  ],
+  "cta": {
+    "primary": {
+      "vi": "Đăng ký học thử",
+      "zh": "预约试听"
+    },
+    "secondary": {
+      "vi": "Xem lộ trình",
+      "zh": "查看学习路径"
+    }
+  }
+}
