@@ -130,3 +130,15 @@ if(year) year.textContent=new Date().getFullYear();
   js.defer=true;
   document.body.appendChild(js);
 })();
+
+// Teacher profile: immutable credential data in JSON, independently redesignable presentation.
+(() => {
+  const css=document.createElement('link');
+  css.rel='stylesheet';
+  css.href='teacher-profile.css?v=20260825-1';
+  document.head.appendChild(css);
+  const js=document.createElement('script');
+  js.src='teacher-profile.js?v=20260825-1';
+  js.defer=true;
+  document.body.appendChild(js);
+})();
