@@ -6,6 +6,11 @@
     "extractedAt": "2026-08-25",
     "note": "Credential content extracted from the image supplied by the site owner. Keep factual fields unchanged unless the site owner provides a correction."
   },
+  "sourceHeading": {
+    "vi": "HỌC VẤN",
+    "en": "EDUCATION",
+    "zh": "学历"
+  },
   "sectionTitle": {
     "vi": "Học vấn & Năng lực",
     "en": "Education & Qualifications",
