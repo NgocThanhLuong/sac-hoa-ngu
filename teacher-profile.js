@@ -1,7 +1,7 @@
 (()=>{
   const DATA_URL='data/teacher-profile.json?v=20260825-1';
   const DESIGN_URL='data/teacher-profile-design-history.json?v=20260825-2';
-  const MEDIA_URL='data/teacher-profile-media.json?v=20260825-1';
+  const MEDIA_URL='data/teacher-profile-media.json?v=20260826-1';
   const FACEBOOK='https://www.facebook.com/tran.anhvan.18/about';
   const escapeHTML=value=>String(value??'').replace(/[&<>'"]/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[ch]));
 
@@ -25,7 +25,7 @@
         <div class="teacher-profile-photo-column">
           <div class="teacher-profile-photo-frame">
             <span class="teacher-photo-seal">色<br>华<br>语</span>
-            ${photo?.path?`<img class="teacher-profile-photo" src="${escapeHTML(photo.path)}" alt="${escapeHTML(photo.alt?.vi||'Ảnh cô giáo Sắc Hoa Ngữ')}" loading="lazy" decoding="async">`:`<div class="teacher-profile-photo-placeholder" aria-label="Ảnh giáo viên sẽ được cập nhật"><span>师</span><small>Ảnh giáo viên</small></div>`}
+            ${photo?.path?`<img class="teacher-profile-photo" src="${escapeHTML(photo.path)}" alt="${escapeHTML(photo.alt?.vi||'Ảnh cô giáo Sắc Hoa Ngữ')}" loading="eager" fetchpriority="high" decoding="async">`:`<div class="teacher-profile-photo-placeholder" aria-label="Ảnh giáo viên sẽ được cập nhật"><span>师</span><small>Ảnh giáo viên</small></div>`}
             <div class="teacher-photo-flower" aria-hidden="true">✦</div>
           </div>
           <div class="teacher-photo-caption"><b>Sắc Hoa Ngữ · 色华语</b><span>Học chắc nền tảng · Dùng tự tin · Giao tiếp tự nhiên</span></div>
@@ -73,7 +73,7 @@
       const [dataResponse,designResponse,mediaResponse]=await Promise.all([
         fetch(DATA_URL,{cache:'no-cache'}),
         fetch(DESIGN_URL,{cache:'no-cache'}),
-        fetch(MEDIA_URL,{cache:'no-cache'})
+        fetch(MEDIA_URL,{cache:'no-store'})
       ]);
       if(!dataResponse.ok) throw new Error(`teacher profile data ${dataResponse.status}`);
       const data=await dataResponse.json();
