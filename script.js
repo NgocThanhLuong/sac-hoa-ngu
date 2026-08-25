@@ -135,10 +135,24 @@ if(year) year.textContent=new Date().getFullYear();
 (() => {
   const css=document.createElement('link');
   css.rel='stylesheet';
-  css.href='teacher-profile.css?v=20260825-1';
+  css.href='teacher-profile.css?v=20260825-2';
   document.head.appendChild(css);
   const js=document.createElement('script');
-  js.src='teacher-profile.js?v=20260825-1';
+  js.src='teacher-profile.js?v=20260825-2';
   js.defer=true;
+  document.body.appendChild(js);
+})();
+
+// Class information: immutable class data in JSON, independently redesignable presentation.
+(() => {
+  const css=document.createElement('link');
+  css.rel='stylesheet';
+  css.href='class-info.css?v=20260825-2';
+  css.dataset.classInfoStyle='true';
+  document.head.appendChild(css);
+  const js=document.createElement('script');
+  js.src='class-info.js?v=20260825-2';
+  js.defer=true;
+  js.dataset.classInfoModule='true';
   document.body.appendChild(js);
 })();
