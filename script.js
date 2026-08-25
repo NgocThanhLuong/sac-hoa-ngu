@@ -28,132 +28,20 @@ const faqs=[
 ];
 
 const benefitRoot=document.querySelector('#benefits');
-if(benefitRoot){
-  benefitRoot.innerHTML=benefits.map((b,i)=>`<article class="value reveal ${i?'delay1':''}"><div class="icon">${b.icon}</div><small>${b.no}</small><h3>${b.title}</h3><strong class="value-cn">${b.cn}</strong><p>${b.text}</p></article>`).join('');
-}
-
+if(benefitRoot){benefitRoot.innerHTML=benefits.map((b,i)=>`<article class="value reveal ${i?'delay1':''}"><div class="icon">${b.icon}</div><small>${b.no}</small><h3>${b.title}</h3><strong class="value-cn">${b.cn}</strong><p>${b.text}</p></article>`).join('')}
 const panel=document.querySelector('#path-panel');
-function renderPath(index){
-  if(!panel) return;
-  const p=paths[index];
-  panel.innerHTML=`<div class="path-main"><span class="path-number">${p.no}</span><div><small>${p.tag}</small><h3>${p.title}</h3><p>${p.text}</p></div></div><div class="outcomes">${p.items.map(x=>`<span>✓ ${x}</span>`).join('')}</div>`;
-}
+function renderPath(index){if(!panel)return;const p=paths[index];panel.innerHTML=`<div class="path-main"><span class="path-number">${p.no}</span><div><small>${p.tag}</small><h3>${p.title}</h3><p>${p.text}</p></div></div><div class="outcomes">${p.items.map(x=>`<span>✓ ${x}</span>`).join('')}</div>`}
 renderPath(0);
-
-document.querySelectorAll('.tabs button').forEach(btn=>btn.addEventListener('click',()=>{
-  document.querySelectorAll('.tabs button').forEach(x=>x.classList.remove('active'));
-  btn.classList.add('active');
-  renderPath(Number(btn.dataset.path));
-}));
-
-const lessonFlow=document.querySelector('#lesson-flow');
-if(lessonFlow){
-  lessonFlow.innerHTML=lessons.map((l,i)=>`<article class="lesson ${i===0?'active':''}"><span class="num">${l.no}</span><div><small>${l.tag}</small><h3>${l.title}</h3><p>${l.text}</p></div></article>`).join('');
-}
-
-const faqList=document.querySelector('#faq-list');
-if(faqList){
-  faqList.innerHTML=faqs.map((f,i)=>`<article class="faq-item ${i===0?'open':''}"><button type="button" aria-expanded="${i===0}"><span>${f[0]}</span><i>${i===0?'−':'+'}</i></button><div class="faq-answer" ${i===0?'':'hidden'}><p>${f[1]}</p></div></article>`).join('');
-}
-
-document.querySelectorAll('.faq-item button').forEach(button=>button.addEventListener('click',()=>{
-  const item=button.closest('.faq-item');
-  const answer=item.querySelector('.faq-answer');
-  const wasOpen=item.classList.contains('open');
-  document.querySelectorAll('.faq-item').forEach(x=>{
-    x.classList.remove('open');
-    x.querySelector('button').setAttribute('aria-expanded','false');
-    x.querySelector('button i').textContent='+';
-    x.querySelector('.faq-answer').hidden=true;
-  });
-  if(!wasOpen){
-    item.classList.add('open');
-    button.setAttribute('aria-expanded','true');
-    button.querySelector('button')?.setAttribute('aria-expanded','true');
-    button.querySelector('i').textContent='−';
-    answer.hidden=false;
-  }
-}));
-
-const menu=document.querySelector('.menu');
-const mobileNav=document.querySelector('.mobile-nav');
-if(menu&&mobileNav){
-  menu.addEventListener('click',()=>{
-    const open=menu.getAttribute('aria-expanded')==='true';
-    menu.setAttribute('aria-expanded',String(!open));
-    menu.textContent=open?'☰':'×';
-    mobileNav.hidden=open;
-  });
-  mobileNav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{
-    mobileNav.hidden=true;
-    menu.setAttribute('aria-expanded','false');
-    menu.textContent='☰';
-  }));
-}
-
-const header=document.querySelector('.header');
-window.addEventListener('scroll',()=>header&&header.classList.toggle('scrolled',window.scrollY>20),{passive:true});
-
-const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{
-  if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}
-}),{threshold:.1});
-document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
-
-const copyButton=document.querySelector('.copy-msg');
-const toast=document.querySelector('.toast');
-const message='Xin chào Sắc Hoa Ngữ! Mình muốn đăng ký buổi học thử tiếng Trung / 你好，我想预约一节中文试听课。Trình độ hiện tại / 目前水平: ... | Mục tiêu / 学习目标: ... | Thời gian có thể học / 可学习时间: ...';
-if(copyButton){
-  copyButton.addEventListener('click',async()=>{
-    try{await navigator.clipboard.writeText(message)}catch(e){const area=document.createElement('textarea');area.value=message;document.body.appendChild(area);area.select();document.execCommand('copy');area.remove()}
-    if(toast){toast.classList.add('show');clearTimeout(window.__toastTimer);window.__toastTimer=setTimeout(()=>toast.classList.remove('show'),3200)}
-  });
-}
-
-const year=document.querySelector('#year');
-if(year) year.textContent=new Date().getFullYear();
-
-// V2 WOW modules are kept separate so the core landing page stays maintainable.
-(() => {
-  const css=document.createElement('link');
-  css.rel='stylesheet';
-  css.href='wow.css?v=20260817-2';
-  document.head.appendChild(css);
-  const js=document.createElement('script');
-  js.src='wow.js?v=20260817-2';
-  js.defer=true;
-  document.body.appendChild(js);
-})();
-
-// Gentle piano background ambience.
-(() => {
-  const js=document.createElement('script');
-  js.src='music.js?v=20260817-4';
-  js.defer=true;
-  document.body.appendChild(js);
-})();
-
-// Teacher profile: immutable credential data in JSON, independently redesignable presentation.
-(() => {
-  const css=document.createElement('link');
-  css.rel='stylesheet';
-  css.href='teacher-profile.css?v=20260825-3';
-  document.head.appendChild(css);
-  const js=document.createElement('script');
-  js.src='teacher-profile.js?v=20260825-3';
-  js.defer=true;
-  document.body.appendChild(js);
-})();
-
-// Class information: immutable class data in JSON, independently redesignable presentation.
-(() => {
-  const css=document.createElement('link');
-  css.rel='stylesheet';
-  css.href='class-info.css?v=20260825-2';
-  css.dataset.classInfoStyle='true';
-  document.head.appendChild(css);
-  const js=document.createElement('script');
-  js.src='class-info.js?v=20260825-2';
-  js.defer=true;
-  js.dataset.classInfoModule='true';
-  document.body.appendChild(js);
-})();
+document.querySelectorAll('.tabs button').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.tabs button').forEach(x=>x.classList.remove('active'));btn.classList.add('active');renderPath(Number(btn.dataset.path))}));
+const lessonFlow=document.querySelector('#lesson-flow');if(lessonFlow){lessonFlow.innerHTML=lessons.map((l,i)=>`<article class="lesson ${i===0?'active':''}"><span class="num">${l.no}</span><div><small>${l.tag}</small><h3>${l.title}</h3><p>${l.text}</p></div></article>`).join('')}
+const faqList=document.querySelector('#faq-list');if(faqList){faqList.innerHTML=faqs.map((f,i)=>`<article class="faq-item ${i===0?'open':''}"><button type="button" aria-expanded="${i===0}"><span>${f[0]}</span><i>${i===0?'−':'+'}</i></button><div class="faq-answer" ${i===0?'':'hidden'}><p>${f[1]}</p></div></article>`).join('')}
+document.querySelectorAll('.faq-item button').forEach(button=>button.addEventListener('click',()=>{const item=button.closest('.faq-item');const answer=item.querySelector('.faq-answer');const wasOpen=item.classList.contains('open');document.querySelectorAll('.faq-item').forEach(x=>{x.classList.remove('open');x.querySelector('button').setAttribute('aria-expanded','false');x.querySelector('button i').textContent='+';x.querySelector('.faq-answer').hidden=true});if(!wasOpen){item.classList.add('open');button.setAttribute('aria-expanded','true');button.querySelector('i').textContent='−';answer.hidden=false}}));
+const menu=document.querySelector('.menu');const mobileNav=document.querySelector('.mobile-nav');if(menu&&mobileNav){menu.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')==='true';menu.setAttribute('aria-expanded',String(!open));menu.textContent=open?'☰':'×';mobileNav.hidden=open});mobileNav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{mobileNav.hidden=true;menu.setAttribute('aria-expanded','false');menu.textContent='☰'}))}
+const header=document.querySelector('.header');window.addEventListener('scroll',()=>header&&header.classList.toggle('scrolled',window.scrollY>20),{passive:true});
+const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}}),{threshold:.1});document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+const copyButton=document.querySelector('.copy-msg');const toast=document.querySelector('.toast');const message='Xin chào Sắc Hoa Ngữ! Mình muốn đăng ký buổi học thử tiếng Trung / 你好，我想预约一节中文试听课。Trình độ hiện tại / 目前水平: ... | Mục tiêu / 学习目标: ... | Thời gian có thể học / 可学习时间: ...';if(copyButton){copyButton.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(message)}catch(e){const area=document.createElement('textarea');area.value=message;document.body.appendChild(area);area.select();document.execCommand('copy');area.remove()}if(toast){toast.classList.add('show');clearTimeout(window.__toastTimer);window.__toastTimer=setTimeout(()=>toast.classList.remove('show'),3200)}})}
+const year=document.querySelector('#year');if(year)year.textContent=new Date().getFullYear();
+(()=>{const css=document.createElement('link');css.rel='stylesheet';css.href='wow.css?v=20260817-2';document.head.appendChild(css);const js=document.createElement('script');js.src='wow.js?v=20260817-2';js.defer=true;document.body.appendChild(js)})();
+(()=>{const js=document.createElement('script');js.src='music.js?v=20260817-4';js.defer=true;document.body.appendChild(js)})();
+(()=>{const css=document.createElement('link');css.rel='stylesheet';css.href='teacher-profile.css?v=20260825-3';document.head.appendChild(css);const js=document.createElement('script');js.src='teacher-profile.js?v=20260826-1';js.defer=true;document.body.appendChild(js)})();
+(()=>{const css=document.createElement('link');css.rel='stylesheet';css.href='class-info.css?v=20260825-2';css.dataset.classInfoStyle='true';document.head.appendChild(css);const js=document.createElement('script');js.src='class-info.js?v=20260825-2';js.defer=true;js.dataset.classInfoModule='true';document.body.appendChild(js)})();
