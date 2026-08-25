@@ -19,15 +19,22 @@ Sau đó truy cập `http://localhost:8080`.
 - `script.js` / `enhanced.js` — navigation, kiến thức tương tác, CTA
 - `wow.css` / `wow.js` — V2 WOW interactive learning experience
 - `music.js` — background ambience, fade, mute state và attribution
+- `data/teacher-profile.json` — dữ liệu học vấn/năng lực giáo viên, tách khỏi giao diện
+- `data/teacher-profile-design-history.json` — lịch sử/policy xoay vòng design phần hồ sơ trong chu kỳ 30 ngày
+- `teacher-profile.css` / `teacher-profile.js` — render phần Học vấn & Năng lực từ JSON
+
+## Quy tắc hồ sơ giáo viên
+
+Dữ liệu học vấn/chứng chỉ/kinh nghiệm trong `data/teacher-profile.json` được xem là dữ liệu gốc do chủ website xác nhận. Các lần refresh design chỉ được thay layout, typography, visual treatment, motion và responsive behavior; không được tự thay đổi factual data.
+
+Mỗi design mới phải được demo trước để duyệt. Sau khi được duyệt, design được lưu vào `data/teacher-profile-design-history.json`. Chu kỳ giữ tối đa 30 design gần nhất; khi đủ 30 có thể tái sử dụng theo thứ tự cũ nhất trước với khoảng cách tối thiểu 30 ngày.
 
 ## Nhạc nền
 
-Website sử dụng **Piano Refreshing** của **PeriTune**, piano solo nhẹ và sáng hơn để làm background ambience. Nguồn media từ Wikimedia Commons; track được sử dụng với attribution theo giấy phép Creative Commons ghi trên trang nguồn.
+Website sử dụng bản piano **“Piano Refreshing”** do **PeriTune** sáng tác, nguồn Wikimedia Commons. Track được dùng theo giấy phép Creative Commons Attribution và attribution được hiển thị trong footer.
 
-Nguồn: https://commons.wikimedia.org/wiki/File:%E3%80%90%E7%84%A1%E6%96%99%E3%83%95%E3%83%AA%E3%83%BCBGM%E3%80%91%E7%88%BD%E3%82%84%E3%81%8B%E3%81%AA%E3%83%94%E3%82%A2%E3%83%8E%E3%82%BD%E3%83%AD%E3%80%8CPiano_Refreshing%E3%80%8D.opus
-
-Music credit được hiển thị trực tiếp ở footer của website. Nhạc chỉ bắt đầu sau tương tác đầu tiên của người dùng để tuân thủ chính sách autoplay của trình duyệt; trạng thái bật/tắt được lưu cục bộ trên thiết bị.
+Nhạc chỉ bắt đầu sau tương tác đầu tiên của người dùng để tuân thủ chính sách autoplay của trình duyệt; trạng thái bật/tắt được lưu cục bộ trên thiết bị.
 
 ## Tuỳ biến nhanh
 
-Các thông tin liên hệ, tên giáo viên và link mạng xã hội có thể thay đổi khi có dữ liệu thật. Facebook giáo viên hiện đã được gắn vào CTA của landing page.
+Các thông tin liên hệ và link mạng xã hội có thể thay đổi khi có dữ liệu thật. Facebook giáo viên hiện đã được gắn vào CTA của landing page.
