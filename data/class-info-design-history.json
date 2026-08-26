@@ -3,10 +3,11 @@
   "rotationPolicy": {
     "maxDesigns": 30,
     "minimumGapBeforeRepeatDays": 30,
+    "scheduledRunsPerDay": 1,
     "dataSource": "data/class-info.json",
     "immutableData": true,
     "approvalRequiredBeforeApply": true,
-    "notes": "Design may change after a visual demo is approved by the site owner. Factual class data must not be rewritten by a scheduled refresh. Once 30 approved designs exist, reuse oldest-first only after the minimum gap."
+    "notes": "Once per day, Scheduled Chat may propose a new visual presentation for class information after reading the canonical JSON and design history. Factual class data must not be rewritten. Apply only after a visual demo is explicitly approved. Once 30 approved designs exist, reuse oldest-first only after the minimum gap."
   },
   "activeDesignId": "class-map-editorial-v1",
   "approvedDesigns": [
@@ -16,7 +17,7 @@
       "name": "Class Map Editorial",
       "approvedAt": "2026-08-25",
       "layout": "audience cards + learning-focus strip + learning format + five-step lesson flow + start CTA",
-      "visualLanguage": "jade, cream and gold editorial cards with restrained Chinese seal motifs; no teacher portrait until a verified teacher image is supplied",
+      "visualLanguage": "jade, cream and gold editorial cards with restrained Chinese seal motifs; teacher media may now be used only when sourced from data/teacher-profile-media.json",
       "responsive": "four audience cards collapse to two and then one column; focus grid and process timeline become horizontally compact stacked cards on mobile"
     }
   ]

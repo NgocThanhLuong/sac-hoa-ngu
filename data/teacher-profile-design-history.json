@@ -8,11 +8,11 @@
     "approvalRequiredBeforeApply": true,
     "rotationWindowDays": 30,
     "reuseAfterDays": 30,
-    "scheduledRunsPerDay": 2,
-    "rule": "Scheduled refreshes may redesign layout, typography, decorative treatment, motion and responsive behavior. They must not alter credential facts. Every new visual must be shown as a demo first and only appended here after explicit approval. Once 30 approved designs exist, reuse them in oldest-first order with at least a 30-day gap."
+    "scheduledRunsPerDay": 1,
+    "rule": "Scheduled refreshes may redesign layout, typography, photo composition, decorative treatment, motion and responsive behavior. They must not alter credential facts or replace approved media without explicit owner input. Every new visual must be shown as a demo first and only appended here after explicit approval. Once 30 approved designs exist, reuse them in oldest-first order with at least a 30-day gap."
   },
-  "activeDesignId": "snow-portrait-editorial-v2",
-  "nextRotationIndex": 3,
+  "activeDesignId": "three-photo-cultural-editorial-v3",
+  "nextRotationIndex": 4,
   "history": [
     {
       "rotationIndex": 1,
@@ -30,11 +30,22 @@
       "id": "snow-portrait-editorial-v2",
       "name": "Snow Portrait Editorial",
       "approvedAt": "2026-08-25",
-      "status": "active",
+      "status": "available",
       "layout": "teacher portrait editorial hero plus compact credential rail and qualification detail band",
       "visualLanguage": "ivory paper, dark jade, warm gold, red seal accent, winter portrait, restrained Chinese editorial motifs",
       "responsive": "desktop portrait-left/content-right; tablet balanced two-column; mobile portrait-first stacked composition",
       "source": "explicitly approved mockup using the teacher portrait supplied by the site owner"
+    },
+    {
+      "rotationIndex": 3,
+      "id": "three-photo-cultural-editorial-v3",
+      "name": "Three Photo Cultural Editorial",
+      "approvedAt": "2026-08-26",
+      "status": "active",
+      "layout": "real-teacher hero with snow portrait + academic qipao story + JSON credential center + lifestyle application story + compact class-info strip",
+      "visualLanguage": "ivory paper, dark jade, muted gold, restrained red seal, three real teacher photographs, premium Vietnamese-Chinese editorial composition",
+      "responsive": "mobile puts the real teacher hero photo first, then headline; teacher profile stacks credential card first and both photo stories below; quick class strip becomes a single-column action panel",
+      "source": "explicitly approved mockup using three teacher photos and the confirmed name Cô Trần Ánh Vân"
     }
   ]
 }
