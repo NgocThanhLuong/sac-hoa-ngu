@@ -1,17 +1,17 @@
 {
   "schemaVersion": 2,
   "teacherPhoto": {
-    "id": "tran-anh-van-waterfront-sharp-v1",
-    "path": "assets/teacher/tran-anh-van-waterfront-sharp.webp?v=20260827-1",
+    "id": "tran-anh-van-waterfront-sharp-v2",
+    "path": "assets/teacher/tran-anh-van-waterfront-sharp-v2.webp?v=20260827-2",
     "alt": {
       "vi": "Cô Trần Ánh Vân - giáo viên Sắc Hoa Ngữ",
       "zh": "陈映云老师 - 色华语中文课堂"
     },
     "source": "user_provided_and_approved",
     "confirmedBySiteOwner": true,
-    "width": 900,
-    "height": 1200,
+    "width": 540,
+    "height": 720,
     "format": "webp",
-    "qualityNote": "High-resolution sharpened portrait for Retina/mobile display. Do not upscale beyond natural resolution."
+    "qualityNote": "Sharpened high-quality WebP optimized from the approved third photo. Display at or below natural resolution; no low-resolution placeholder or CSS enlargement beyond source dimensions."
   }
 }
