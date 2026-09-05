@@ -1,18 +1,17 @@
 {
-  "schemaVersion": 4,
+  "schemaVersion": 5,
   "teacherPhoto": {
-    "id": "tran-anh-van-waterfront-path-v4",
-    "path": "/assets/teacher/tran-anh-van-waterfront-sharp-v2.webp?v=20260905-4",
-    "fallbackPath": "/assets/teacher/teacher-snow-v2.jpg?v=20260905-4",
+    "id": "tran-anh-van-waterfront-main-jpg-v5",
+    "path": "/assets/teacher/tran-anh-van-waterfront-main.jpg?v=20260905-5",
     "alt": {
       "vi": "Cô Trần Ánh Vân - giáo viên Sắc Hoa Ngữ",
       "zh": "陈映云老师 - 色华语中文课堂"
     },
     "source": "user_provided_and_approved",
     "confirmedBySiteOwner": true,
-    "width": 540,
-    "height": 720,
-    "format": "webp",
-    "qualityNote": "Load through normal public asset paths only. No base64/data URI. JPEG fallback is used only if the primary WebP cannot be decoded."
+    "width": 480,
+    "height": 640,
+    "format": "jpg",
+    "qualityNote": "Canonical JPEG loaded only by public asset path. No base64/data URI runtime. Sized for the current profile frame without CSS upscaling beyond the source width."
   }
 }
