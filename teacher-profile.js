@@ -1,7 +1,7 @@
 (()=>{
   const DATA_URL='data/teacher-profile.json?v=20260825-1';
   const DESIGN_URL='data/teacher-profile-design-history.json?v=20260825-2';
-  const MEDIA_URL='data/teacher-profile-media.json?v=20260826-1';
+  const MEDIA_URL='data/teacher-profile-media.json?v=20260905-3';
   const FACEBOOK='https://www.facebook.com/tran.anhvan.18/about';
   const escapeHTML=value=>String(value??'').replace(/[&<>'"]/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[ch]));
 
