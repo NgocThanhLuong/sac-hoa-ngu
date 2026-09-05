@@ -1,15 +1,16 @@
 {
   "hosting": {
     "public": "public",
-    "predeploy": [
-      "node scripts/sync-public.mjs"
-    ],
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
     ],
-    "cleanUrls": true,
-    "trailingSlash": false
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
   }
 }
