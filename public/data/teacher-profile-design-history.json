@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "section": "teacher-profile",
+  "dataSource": "data/teacher-profile.json",
+  "mediaSource": "data/teacher-profile-media.json",
+  "policy": {
+    "credentialDataImmutable": true,
+    "approvalRequiredBeforeApply": true,
+    "rotationWindowDays": 30,
+    "reuseAfterDays": 30,
+    "scheduledRunsPerDay": 2,
+    "rule": "Scheduled refreshes may redesign layout, typography, decorative treatment, motion and responsive behavior. They must not alter credential facts. Every new visual must be shown as a demo first and only appended here after explicit approval. Once 30 approved designs exist, reuse them in oldest-first order with at least a 30-day gap."
+  },
+  "activeDesignId": "snow-portrait-editorial-v2",
+  "nextRotationIndex": 3,
+  "history": [
+    {
+      "rotationIndex": 1,
+      "id": "jade-credential-cards-v1",
+      "name": "Jade Credential Gallery",
+      "approvedAt": "2026-08-25",
+      "status": "available",
+      "layout": "editorial-header-plus-five-credential-cards",
+      "visualLanguage": "ivory paper, dark jade, muted gold, subtle ink-wash landscape, circular academic icons",
+      "responsive": "desktop five-card grid; tablet two-column; mobile stacked cards",
+      "source": "user-approved mockup derived from supplied credential image"
+    },
+    {
+      "rotationIndex": 2,
+      "id": "snow-portrait-editorial-v2",
+      "name": "Snow Portrait Editorial",
+      "approvedAt": "2026-08-25",
+      "status": "active",
+      "layout": "teacher portrait editorial hero plus compact credential rail and qualification detail band",
+      "visualLanguage": "ivory paper, dark jade, warm gold, red seal accent, winter portrait, restrained Chinese editorial motifs",
+      "responsive": "desktop portrait-left/content-right; tablet balanced two-column; mobile portrait-first stacked composition",
+      "source": "explicitly approved mockup using the teacher portrait supplied by the site owner"
+    }
+  ]
+}
