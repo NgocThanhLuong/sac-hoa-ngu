@@ -8,11 +8,11 @@
     "approvalRequiredBeforeApply": true,
     "rotationWindowDays": 30,
     "reuseAfterDays": 30,
-    "scheduledRunsPerDay": 2,
+    "scheduledRunsPerDay": 1,
     "rule": "Scheduled refreshes may redesign layout, typography, decorative treatment, motion and responsive behavior. They must not alter credential facts. Every new visual must be shown as a demo first and only appended here after explicit approval. Once 30 approved designs exist, reuse them in oldest-first order with at least a 30-day gap."
   },
-  "activeDesignId": "snow-portrait-editorial-v2",
-  "nextRotationIndex": 3,
+  "activeDesignId": "mint-bloom-editorial-v3",
+  "nextRotationIndex": 4,
   "history": [
     {
       "rotationIndex": 1,
@@ -30,11 +30,22 @@
       "id": "snow-portrait-editorial-v2",
       "name": "Snow Portrait Editorial",
       "approvedAt": "2026-08-25",
-      "status": "active",
+      "status": "available",
       "layout": "teacher portrait editorial hero plus compact credential rail and qualification detail band",
       "visualLanguage": "ivory paper, dark jade, warm gold, red seal accent, winter portrait, restrained Chinese editorial motifs",
       "responsive": "desktop portrait-left/content-right; tablet balanced two-column; mobile portrait-first stacked composition",
       "source": "explicitly approved mockup using the teacher portrait supplied by the site owner"
+    },
+    {
+      "rotationIndex": 3,
+      "id": "mint-bloom-editorial-v3",
+      "name": "Mint Bloom Editorial",
+      "approvedAt": "2026-09-05",
+      "status": "active",
+      "layout": "fresh bilingual editorial system with pastel benefit cards, arched teacher portrait, five colorful credential cards and airy qualification bands",
+      "visualLanguage": "soft mint, warm cream, coral, sky blue and light sage with deep jade typography, subtle blossom and bamboo accents",
+      "responsive": "desktop editorial split; tablet simplified two-column cards; mobile portrait-first stack with restrained pastel accents",
+      "source": "explicitly approved visual demo generated in chat on 2026-09-05"
     }
   ]
 }
