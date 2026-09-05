@@ -1,8 +1,9 @@
 {
-  "schemaVersion": 3,
+  "schemaVersion": 4,
   "teacherPhoto": {
-    "id": "tran-anh-van-waterfront-path-v3",
-    "path": "assets/teacher/tran-anh-van-waterfront.jpg?v=20260905-3",
+    "id": "tran-anh-van-waterfront-path-v4",
+    "path": "/assets/teacher/tran-anh-van-waterfront-sharp-v2.webp?v=20260905-4",
+    "fallbackPath": "/assets/teacher/teacher-snow-v2.jpg?v=20260905-4",
     "alt": {
       "vi": "Cô Trần Ánh Vân - giáo viên Sắc Hoa Ngữ",
       "zh": "陈映云老师 - 色华语中文课堂"
@@ -11,7 +12,7 @@
     "confirmedBySiteOwner": true,
     "width": 540,
     "height": 720,
-    "format": "jpg",
-    "qualityNote": "Firebase/GitHub Pages load this portrait from a normal asset path. Do not embed the image as base64 or a data URI."
+    "format": "webp",
+    "qualityNote": "Load through normal public asset paths only. No base64/data URI. JPEG fallback is used only if the primary WebP cannot be decoded."
   }
 }
