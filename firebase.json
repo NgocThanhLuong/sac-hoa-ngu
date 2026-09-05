@@ -1,6 +1,9 @@
 {
   "hosting": {
     "public": "public",
+    "predeploy": [
+      "node scripts/sync-public.mjs"
+    ],
     "ignore": [
       "firebase.json",
       "**/.*",
