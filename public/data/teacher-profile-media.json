@@ -1,17 +1,17 @@
 {
-  "schemaVersion": 5,
+  "schemaVersion": 6,
   "teacherPhoto": {
-    "id": "tran-anh-van-waterfront-main-jpg-v5",
-    "path": "/assets/teacher/tran-anh-van-waterfront-main.jpg?v=20260905-5",
+    "id": "tran-anh-van-waterfront-safe-jpg-v6",
+    "path": "/assets/teacher/tran-anh-van-waterfront-main.jpg?v=20260905-6",
     "alt": {
       "vi": "Cô Trần Ánh Vân - giáo viên Sắc Hoa Ngữ",
       "zh": "陈映云老师 - 色华语中文课堂"
     },
     "source": "user_provided_and_approved",
     "confirmedBySiteOwner": true,
-    "width": 480,
-    "height": 640,
+    "width": 200,
+    "height": 323,
     "format": "jpg",
-    "qualityNote": "Canonical JPEG loaded only by public asset path. No base64/data URI runtime. Sized for the current profile frame without CSS upscaling beyond the source width."
+    "qualityNote": "Verified complete JPEG binary loaded from a normal public asset path. No base64/data URI is used at runtime."
   }
 }
