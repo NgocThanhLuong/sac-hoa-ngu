@@ -1,9 +1,9 @@
 (()=>{
   const DATA_URL='data/teacher-profile.json?v=20260825-1';
   const DESIGN_URL='data/teacher-profile-design-history.json?v=20260825-2';
-  const MEDIA_URL='data/teacher-profile-media.json?v=20260905-4';
+  const MEDIA_URL='data/teacher-profile-media.json?v=20260905-5';
   const FACEBOOK='https://www.facebook.com/tran.anhvan.18/about';
-  const escapeHTML=value=>String(value??'').replace(/[&<>'"]/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[ch]));
+  const escapeHTML=value=>String(value??'').replace(/[&<>'\"]/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','\"':'&quot;'}[ch]));
 
   const icons={
     degree:'<svg viewBox="0 0 64 64" aria-hidden="true"><path d="M8 25 32 13l24 12-24 12L8 25Z"/><path d="M18 31v11c7 7 21 7 28 0V31"/><path d="M54 27v14"/></svg>',
@@ -65,12 +65,11 @@
     </div>`;
 
     const image=section.querySelector('.teacher-profile-photo');
-    if(image&&photo?.fallbackPath){
+    if(image){
       image.addEventListener('error',()=>{
-        if(image.dataset.fallbackApplied==='true') return;
-        image.dataset.fallbackApplied='true';
-        image.src=photo.fallbackPath;
-      },{once:false});
+        console.error('[Sắc Hoa Ngữ] teacher portrait failed:',image.currentSrc||image.src);
+        image.replaceWith(Object.assign(document.createElement('div'),{className:'teacher-profile-photo-placeholder',innerHTML:'<span>师</span><small>Ảnh đang được tải lại</small>'}));
+      },{once:true});
     }
 
     const anchor=document.querySelector('.about');
