@@ -1,1 +1,0 @@
-Binary teacher portrait will be stored as a normal image path; no data URI/base64 is used at runtime.
