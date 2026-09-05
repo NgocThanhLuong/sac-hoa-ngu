@@ -1,8 +1,8 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "teacherPhoto": {
-    "id": "tran-anh-van-waterfront-sharp-v2",
-    "path": "assets/teacher/tran-anh-van-waterfront-sharp-v2.webp?v=20260827-2",
+    "id": "tran-anh-van-waterfront-path-v3",
+    "path": "assets/teacher/tran-anh-van-waterfront.jpg?v=20260905-3",
     "alt": {
       "vi": "Cô Trần Ánh Vân - giáo viên Sắc Hoa Ngữ",
       "zh": "陈映云老师 - 色华语中文课堂"
@@ -11,7 +11,7 @@
     "confirmedBySiteOwner": true,
     "width": 540,
     "height": 720,
-    "format": "webp",
-    "qualityNote": "Sharpened high-quality WebP optimized from the approved third photo. Display at or below natural resolution; no low-resolution placeholder or CSS enlargement beyond source dimensions."
+    "format": "jpg",
+    "qualityNote": "Firebase/GitHub Pages load this portrait from a normal asset path. Do not embed the image as base64 or a data URI."
   }
 }
