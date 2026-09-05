@@ -1,7 +1,7 @@
 (()=>{
   const DATA_URL='data/teacher-profile.json?v=20260825-1';
   const DESIGN_URL='data/teacher-profile-design-history.json?v=20260825-2';
-  const MEDIA_URL='data/teacher-profile-media.json?v=20260905-3';
+  const MEDIA_URL='data/teacher-profile-media.json?v=20260905-4';
   const FACEBOOK='https://www.facebook.com/tran.anhvan.18/about';
   const escapeHTML=value=>String(value??'').replace(/[&<>'"]/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[ch]));
 
@@ -63,6 +63,15 @@
         <div class="teacher-profile-actions"><a class="teacher-profile-action secondary" href="${FACEBOOK}" target="_blank" rel="noopener noreferrer">${escapeHTML(data.cta.message.vi)} · ${escapeHTML(data.cta.message.zh)} ↗</a><a class="teacher-profile-action primary" href="#lien-he">${escapeHTML(data.cta.trial.vi)} · ${escapeHTML(data.cta.trial.zh)} →</a></div>
       </div>
     </div>`;
+
+    const image=section.querySelector('.teacher-profile-photo');
+    if(image&&photo?.fallbackPath){
+      image.addEventListener('error',()=>{
+        if(image.dataset.fallbackApplied==='true') return;
+        image.dataset.fallbackApplied='true';
+        image.src=photo.fallbackPath;
+      },{once:false});
+    }
 
     const anchor=document.querySelector('.about');
     if(anchor) anchor.insertAdjacentElement('afterend',section); else document.querySelector('main')?.prepend(section);
