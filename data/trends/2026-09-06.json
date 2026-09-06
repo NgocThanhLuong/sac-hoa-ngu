@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-09-06",
+  "version": 1,
+  "generatedAt": "2026-09-06T08:44:39+07:00",
+  "status": "published",
+  "feature": {
+    "titleVi": "‘kuku học’ hóa ra có một chữ Hán rất cổ",
+    "titleZh": "“kuku学”背后，竟藏着一个古汉字",
+    "expression": "kuku学 / 矻矻学",
+    "pinyin": "kūkū xué",
+    "hookVi": "Một cách nói nghe cực Gen Z lại nối thẳng về tiếng Hán cổ: 矻矻 kūkū — chăm chỉ, miệt mài không ngừng.",
+    "explanationVi": "Trên mạng xã hội Trung Quốc, ‘kuku学’, ‘kuku吃’, ‘kuku睡’ được dùng vui để nhấn mạnh trạng thái làm một việc rất hăng, rất tập trung. Nhân Dân Nhật Báo Hải ngoại bản chỉ ra rằng ‘kuku’ có thể liên hệ với chữ cổ 矻矻 (kūkū), được giải thích là cần cù, không ngừng nghỉ. Khi đi vào ngôn ngữ mạng, mẫu ‘kuku + động từ’ trở nên linh hoạt và có sắc thái dí dỏm hơn.",
+    "explanationZh": "网络里的“kuku学、kuku吃、kuku睡”常用来夸张地表示很投入地做某件事。值得玩味的是，“kuku”还能与古词“矻矻（kūkū）”产生联系——古义强调勤劳不懈，而网络用法又发展出轻松、自嘲的语气。",
+    "whyNow": "Đây không phải một từ vừa xuất hiện hôm nay, nhưng vẫn là một hiện tượng ngôn ngữ mạng đương đại đáng học: năm 2026, Nhân Dân Nhật Báo Hải ngoại bản dành riêng một bài giải thích ‘kuku学/kuku吃’ như ví dụ cho việc ngôn ngữ mạng tái kích hoạt âm–hình–nghĩa của chữ Hán cổ. Vì vậy nội dung được xếp là ‘đang lưu hành + có giá trị ngôn ngữ học’, không gắn nhãn là hot trend 24 giờ.",
+    "usage": "Dùng trong chat, caption, bình luận hoặc nói vui giữa bạn bè. Công thức thực dụng: kuku + động từ, ví dụ kuku学, kuku吃, kuku睡. Không phù hợp với văn bản trang trọng.",
+    "examples": [
+      {"zh":"考试快到了，我今晚要kuku学。","pinyin":"Kǎoshì kuài dào le, wǒ jīnwǎn yào kūkū xué.","vi":"Sắp thi rồi, tối nay tôi phải cày học thật lực."},
+      {"zh":"这家火锅太香了，今天必须kuku吃！","pinyin":"Zhè jiā huǒguō tài xiāng le, jīntiān bìxū kūkū chī!","vi":"Quán lẩu này thơm quá, hôm nay phải ăn thật nhiệt tình!"},
+      {"zh":"周末不设闹钟，我要kuku睡。","pinyin":"Zhōumò bù shè nàozhōng, wǒ yào kūkū shuì.","vi":"Cuối tuần không đặt báo thức, tôi sẽ ngủ cho đã."}
+    ],
+    "nuance": "‘矻矻’ là từ cổ/trang trọng và hiếm trong khẩu ngữ hiện đại; ‘kuku + động từ’ là lối viết mạng, vui và phi trang trọng. Không nên mặc định mọi ‘kuku’ trên mạng đều đang cố ý viết chữ 矻矻.",
+    "cultureNote": "Điểm thú vị nằm ở cơ chế ‘cũ mà mới’: người dùng mạng có thể viết bằng pinyin/Latin cho nhanh và vui, trong khi âm đó lại gợi về một chữ cổ có nghĩa tương thích. Đây là ví dụ đẹp để học chữ Hán qua quan hệ âm–hình–nghĩa thay vì học thuộc rời rạc.",
+    "takeaway": "Hôm nay nhớ 1 chữ: 矻 kū — và thử tự tạo một câu ‘kuku + động từ’ đúng ngữ cảnh chat."
+  },
+  "supportingItems": [
+    {"expression":"yue了 / 哕了","pinyin":"yuě le","vi":"‘yue rồi / muốn ói rồi’ trong chat có một chữ tương ứng là 哕 (yuě), chỉ nôn/ói; cũng là một ví dụ mạng xã hội làm người học tò mò trở lại với chữ Hán ít gặp."}
+  ],
+  "sources": [
+    {"title":"掀起网言网语的盖头来（中文角）","publisher":"人民日报海外版 / 人民网","domain":"people.com.cn","date":"2026-04-14","url":"https://sc.people.com.cn/n2/2026/0414/c345460-41551580.html"},
+    {"title":"网言网语，一定是无源之水吗？","publisher":"北京日报客户端（转载人民日报海外版）","domain":"bjd.com.cn","date":"2026-04-14","url":"https://news.bjd.com.cn/2026/04/14/11687685.shtml"}
+  ],
+  "tags": ["网络用语","汉字","古字今用","口语","年轻人表达"],
+  "editorialNotes": "Current-web review found no sufficiently well-sourced learner-safe Chinese slang item demonstrably breaking in the last 7 days. This feature is therefore explicitly presented as a currently circulating 2026 language phenomenon, not as a 24-hour viral ranking. Core linguistic claims were cross-checked against two reputable publications carrying the same People’s Daily Overseas Edition analysis."
+}
