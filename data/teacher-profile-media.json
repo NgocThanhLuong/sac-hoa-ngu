@@ -2,7 +2,7 @@
   "schemaVersion": 6,
   "teacherPhoto": {
     "id": "tran-anh-van-waterfront-safe-jpg-v6",
-    "path": "/assets/teacher/tran-anh-van-waterfront-main.jpg?v=20260905-6",
+    "path": "assets/teacher/tran-anh-van-waterfront-main.jpg?v=20260906-1",
     "alt": {
       "vi": "Cô Trần Ánh Vân - giáo viên Sắc Hoa Ngữ",
       "zh": "陈映云老师 - 色华语中文课堂"
@@ -12,6 +12,6 @@
     "width": 200,
     "height": 323,
     "format": "jpg",
-    "qualityNote": "Verified complete JPEG binary loaded from a normal public asset path. No base64/data URI is used at runtime."
+    "qualityNote": "Verified complete JPEG binary loaded from a relative public asset path compatible with GitHub Pages project subpaths and Firebase Hosting. No base64/data URI is used at runtime."
   }
 }
