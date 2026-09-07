@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-09-07",
+  "version": 1,
+  "generatedAt": "2026-09-07T08:50:27+07:00",
+  "status": "published",
+  "feature": {
+    "titleVi": "“数字泔水” — khi tiếng Trung gọi nội dung AI rác bằng một ẩn dụ rất đời thường",
+    "titleZh": "“数字泔水”：中文互联网怎样给低质AI内容起名字",
+    "expression": "数字泔水",
+    "pinyin": "shùzì gānshuǐ",
+    "hookVi": "数字 = số/digital, 泔水 = nước thức ăn thừa. Ghép lại thành một cụm cực hình tượng để chỉ nội dung số chất lượng thấp, đặc biệt là nội dung AI sản xuất hàng loạt.",
+    "explanationVi": "“数字泔水” là cách gọi mang tính phê bình dành cho nội dung số rẻ tiền, lặp lại, ít giá trị, thường được sản xuất hàng loạt. Trong bối cảnh AI tạo sinh, cụm này gần với cách tiếng Anh dùng “AI slop”. Điểm đáng học là tiếng Trung không dịch máy móc mà dùng một ẩn dụ bản địa rất mạnh: 泔水 vốn chỉ nước/thức ăn thừa, nên khi đi với 数字 tạo cảm giác ‘rác nội dung’ rất trực quan.",
+    "explanationZh": "“数字泔水”常用来批评低质、同质化、批量生产的数字内容，尤其常见于讨论AI生成内容时。这个词的表达力来自“泔水”本身的具象感：原本指剩饭剩菜里的污水或废弃物，放到数字语境后，就形成了对“低价值内容”的强烈比喻。",
+    "whyNow": "Cụm này được nhắc lại dày đặc trong tuần 2–7/9/2026: ngày 2/9, Cục Quản lý Không gian mạng Trung Quốc công bố đợt xử lý nội dung AI và dùng trực tiếp cụm “生成‘数字泔水’”; Nhân Dân Nhật Báo và Tân Hoa Xã tiếp tục dẫn lại trong các bản tin ngày 2–3/9. Vì vậy đây là một từ đang có tính thời sự rõ ràng trong tuần này, không chỉ là evergreen vocabulary.",
+    "usage": "Dùng trong báo chí, bình luận công nghệ, thảo luận mạng xã hội về nội dung kém chất lượng. Sắc thái phê bình khá mạnh; không nên dùng để mô tả sản phẩm/người khác trong ngữ cảnh lịch sự nếu chưa có quan hệ thân mật.",
+    "examples": [
+      {"zh":"现在网上的AI内容很多，但真正有价值的不应该变成数字泔水。","pinyin":"Xiànzài wǎngshàng de AI nèiróng hěn duō, dàn zhēnzhèng yǒu jiàzhí de bù yīnggāi biàn chéng shùzì gānshuǐ.","vi":"Bây giờ nội dung AI trên mạng rất nhiều, nhưng nội dung có giá trị thật sự không nên biến thành ‘rác số’."},
+      {"zh":"同质化、批量生成的短视频，很容易被人吐槽成数字泔水。","pinyin":"Tóngzhìhuà, pīliàng shēngchéng de duǎnshìpín, hěn róngyì bèi rén tǔcáo chéng shùzì gānshuǐ.","vi":"Video ngắn đồng dạng, sản xuất hàng loạt rất dễ bị chê là ‘rác nội dung số’."},
+      {"zh":"学会筛选信息，比每天刷一堆数字泔水更重要。","pinyin":"Xuéhuì shāixuǎn xìnxī, bǐ měitiān shuā yì duī shùzì gānshuǐ gèng zhòngyào.","vi":"Biết chọn lọc thông tin quan trọng hơn việc mỗi ngày lướt một đống ‘rác số’."}
+    ],
+    "nuance": "“泔水” là từ khá nặng và giàu hình ảnh tiêu cực. “数字泔水” mang sắc thái chê bai rõ rệt; dùng tốt nhất khi nói về hiện tượng/nội dung, không nên gán trực tiếp cho người tạo nội dung trong ngữ cảnh trang trọng.",
+    "cultureNote": "Tiếng Trung hiện đại rất thích tạo từ mới bằng cách ghép một khái niệm công nghệ trừu tượng với một vật thể đời thường giàu hình ảnh. “数字泔水” là ví dụ điển hình: chỉ hai từ đã chuyển một vấn đề trừu tượng về chất lượng nội dung thành một hình ảnh ai cũng hiểu ngay.",
+    "takeaway": "Hôm nay nhớ 2 từ: 数字 shùzì = digital/số và 泔水 gānshuǐ = nước/thức ăn thừa. Khi ghép thành 数字泔水, nghĩa không còn là phép cộng đơn giản mà trở thành một ẩn dụ xã hội hoàn chỉnh."
+  },
+  "supportingItems": [
+    {"expression":"魔改","pinyin":"mógǎi","vi":"‘Chỉnh sửa/phóng tác quá tay’ — trong tuần này cụm này cũng xuất hiện cùng bối cảnh AI “魔改” tác phẩm kinh điển. Khẩu ngữ, sắc thái chê hoặc đùa tùy ngữ cảnh."},
+    {"expression":"同质化","pinyin":"tóngzhìhuà","vi":"‘Đồng dạng hóa / na ná nhau’ — từ báo chí rất hữu ích để mô tả nội dung lặp mô-típ, sản phẩm thiếu khác biệt."}
+  ],
+  "sources": [
+    {"title":"中央网信办深入开展“清朗·整治AI应用乱象”专项行动第二阶段工作","publisher":"中央网络安全和信息化委员会办公室","domain":"cac.gov.cn","date":"2026-09-02","url":"https://www.cac.gov.cn/2026-09/02/c_1790099041364574.htm"},
+    {"title":"查处账号4.9万余个 中央网信办深入整治AI应用乱象","publisher":"新华社 / 新华网","domain":"news.cn","date":"2026-09-02","url":"https://www.news.cn/legal/20260902/551f1b8b15724708873fb2bea6c693d7/c.html"},
+    {"title":"中央网信办深入整治AI应用乱象","publisher":"人民日报 / 人民网","domain":"people.com.cn","date":"2026-09-03","url":"https://cpc.people.com.cn/n1/2026/0903/c64387-40791678.html"}
+  ],
+  "tags": ["网络用语","AI","数字文化","新词","媒体中文","科技中文"],
+  "editorialNotes": "Freshness verified against current web results on 2026-09-07. The term itself predates this week, but it is demonstrably resurfacing in major official and national-media coverage dated 2026-09-02 to 2026-09-03. Presented as a currently salient term, not as a claim that the phrase was coined this week."
+}
