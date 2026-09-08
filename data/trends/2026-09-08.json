@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-09-08",
+  "version": 1,
+  "generatedAt": "2026-09-08T08:50:42+07:00",
+  "status": "published",
+  "feature": {
+    "titleVi": "“活人感” — vì sao tiếng Trung đang chuộng cảm giác ‘có hơi người’ hơn sự hoàn hảo máy móc?",
+    "titleZh": "“活人感”：为什么年轻人越来越喜欢真实、有温度的表达",
+    "expression": "活人感",
+    "pinyin": "huórén gǎn",
+    "hookVi": "Không phải chỉ là ‘cảm giác sống động’. 活人感 là cảm giác một người, một cửa hàng hay một nội dung thật sự có cá tính, có phản ứng tự nhiên, có chút vụng về và ‘có người ở bên trong’ — đối lập với kiểu quá trơn tru, quá công thức hoặc quá giống AI.",
+    "explanationVi": "“活人感” là một từ mạng giàu sắc thái, ghép từ 活人 (người sống/người thật) + 感 (cảm giác). Trong cách dùng hiện nay, nó thường khen một người, thương hiệu, cửa hàng hoặc nội dung vì có sự chân thật, tự nhiên, có tính cách và có ‘hơi người’. Nghĩa thực tế rộng hơn phép cộng từng chữ: nó nhấn vào cảm giác không bị đóng khuôn, không quá hoàn hảo và không lạnh lẽo như một sản phẩm được tối ưu bằng công thức.",
+    "explanationZh": "“活人感”是近年网络语境里常见的评价词，强调真实、自然、有个性、有互动感。它可以形容一个人、一家店、一段内容甚至一种空间氛围，核心不是‘热闹’，而是让人感觉背后有具体的人、有情绪、有判断，而不是标准化模板。",
+    "whyNow": "Từ cuối tháng 8 đến đầu tháng 9/2026, ‘活人感’ được nhắc lại mạnh trong các thảo luận về người trẻ mở cửa hàng và trải nghiệm đời sống. Ngày 2–3/9, nhiều bài trên Sina tổng hợp chủ đề #果然年轻人开店活人感就是重#; ngày 4/9, Beijing Time tiếp tục dùng ‘活人感’ để mô tả lý do người trẻ thích đi chợ truyền thống. Điều đó cho thấy cụm này đang có độ hiện diện thời sự rõ rệt trong tuần này, đồng thời vẫn đủ phổ quát để học sinh có thể tái sử dụng trong giao tiếp.",
+    "usage": "Khẩu ngữ và văn phong mạng xã hội. Có thể dùng để khen người, tài khoản, cửa hàng, nội dung hoặc không gian. Thường đi với 有、很、有点、缺少, ví dụ 很有活人感 / 没什么活人感. Không phù hợp với văn bản học thuật hoặc công văn trang trọng.",
+    "examples": [
+      {"zh":"这家小店没有那么标准化，反而很有活人感。","pinyin":"Zhè jiā xiǎodiàn méiyǒu nàme biāozhǔnhuà, fǎn'ér hěn yǒu huórén gǎn.","vi":"Quán nhỏ này không quá chuẩn hoá, ngược lại lại rất có ‘hơi người’."},
+      {"zh":"她发视频的时候不端着，所以大家觉得特别有活人感。","pinyin":"Tā fā shìpín de shíhou bù duānzhe, suǒyǐ dàjiā juéde tèbié yǒu huórén gǎn.","vi":"Khi đăng video cô ấy không cố giữ vẻ kiểu cách, nên mọi người thấy rất chân thật và có ‘hơi người’."},
+      {"zh":"内容太完美、太像模板，有时候反而会少一点活人感。","pinyin":"Nèiróng tài wánměi, tài xiàng móbǎn, yǒushíhou fǎn'ér huì shǎo yìdiǎn huórén gǎn.","vi":"Nội dung quá hoàn hảo, quá giống khuôn mẫu đôi khi ngược lại sẽ thiếu một chút cảm giác chân thật."}
+    ],
+    "nuance": "“活人感” thường mang nghĩa tích cực nhưng không đồng nghĩa với ‘lộn xộn’ hay ‘thiếu chuyên nghiệp’. Người dùng đang khen sự chân thật có cá tính, chứ không phải cổ vũ dịch vụ tệ. Khi áp dụng cho người khác, sắc thái thân mật và mạng xã hội khá rõ.",
+    "cultureNote": "Điểm thú vị là tiếng Trung hiện đại dùng hậu tố 感 rất năng suất để biến một khái niệm thành ‘cảm giác/khí chất’: 氛围感 (cảm giác không khí), 松弛感 (cảm giác thư thái), 故事感 (cảm giác có câu chuyện), 活人感. Hiểu mô hình X + 感 giúp người học đoán nghĩa của nhiều từ mạng mới mà không cần học rời từng cụm.",
+    "takeaway": "Hôm nay nhớ mẫu rất dùng được: 很有活人感 = rất chân thật/có hơi người. Và học luôn mô hình X + 感 để mở rộng vốn từ mạng tiếng Trung hiện đại."
+  },
+  "supportingItems": [
+    {"expression":"烟火气","pinyin":"yānhuǒqì","vi":"‘Hơi thở đời sống / chất đời thường’ — hay dùng cho chợ, phố xá, quán ăn, khu dân cư có cảm giác sống thật và gần gũi."},
+    {"expression":"松弛感","pinyin":"sōngchí gǎn","vi":"‘Cảm giác thư thái, không gồng’ — một từ mạng rất phổ biến, thường được đặt cạnh 活人感 khi nói về phong cách sống hoặc biểu đạt tự nhiên."}
+  ],
+  "sources": [
+    {"title":"年轻人开店‘活人感’为何突然爆火？","publisher":"新浪新闻","domain":"sina.com.cn","date":"2026-09-02","url":"https://k.sina.com.cn/article_7879776328_1d5abd848068029280.html"},
+    {"title":"2026年9月年轻人开店‘活人感’风潮怎么回事？","publisher":"新浪新闻","domain":"sina.com.cn","date":"2026-09-03","url":"https://k.sina.com.cn/article_7879776328_1d5abd8480680295aw.html"},
+    {"title":"这届年轻人，在菜市场里寻找‘活人感’","publisher":"北京时间 / 新浪财经转载","domain":"sina.com.cn","date":"2026-09-04","url":"https://finance.sina.com.cn/wm/2026-09-04/doc-iniqsens0853758.shtml"}
+  ],
+  "tags": ["网络用语","年轻人","生活方式","表达","新词","口语"],
+  "editorialNotes": "Freshness checked on 2026-09-08. ‘活人感’ is not newly coined this week; it is an established internet expression that has clearly resurfaced in current September 2026 discussion around young shop owners and everyday-life spaces. Presented as a currently salient usage trend, not as a newly invented word."
+}

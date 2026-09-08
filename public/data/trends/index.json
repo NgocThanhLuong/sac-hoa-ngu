@@ -1,10 +1,11 @@
 {
   "schemaVersion": 1,
-  "latest": "2026-09-07.json",
-  "latestDate": "2026-09-07",
+  "latest": "2026-09-08.json",
+  "latestDate": "2026-09-08",
   "activeVersion": 1,
   "entries": [
     {"date":"2026-09-06","version":1,"file":"2026-09-06.json","title":"‘kuku học’ hóa ra có một chữ Hán rất cổ","status":"published"},
-    {"date":"2026-09-07","version":1,"file":"2026-09-07.json","title":"“数字泔水” — khi tiếng Trung gọi nội dung AI rác bằng một ẩn dụ rất đời thường","status":"published"}
+    {"date":"2026-09-07","version":1,"file":"2026-09-07.json","title":"“数字泔水” — khi tiếng Trung gọi nội dung AI rác bằng một ẩn dụ rất đời thường","status":"published"},
+    {"date":"2026-09-08","version":1,"file":"2026-09-08.json","title":"“活人感” — vì sao tiếng Trung đang chuộng cảm giác ‘có hơi người’ hơn sự hoàn hảo máy móc?","status":"published"}
   ]
 }
